@@ -7,3 +7,12 @@ test('renders learn react link', () => {
   const linkElement = getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });
+
+it("renders without crashing", () => {
+  const { getByText, getAllByText, getByTestId } = render(<App />);
+  const input = getByName("name");
+  expect(getByName("getByName").length).toBe(1);
+  fireEvent.onChange(input);
+  expect(toBeInTheDocument("result")).toBeInTheDocument();
+});
+

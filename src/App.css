@@ -1,38 +1,28 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.searchForm{
+  background-color: #e485c7;
+  margin: 40px auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.searchForm input::placeholder{
+  color: black;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.searchForm button{
+  border: 0;
+  background-color:rgba(202, 156, 24, 1); 
+  cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
+.searchForm button:focus{
+  outline: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.searchForm input{
+  border: 0; 
+  color: black;
+  padding: 0 20px;
+  font-size: 18px;
+ 
+}
+.Userlist{
+  min-height:500px;
+  width: 400px;
+  margin: 0px auto;
 }
