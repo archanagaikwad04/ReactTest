@@ -1,6 +1,53 @@
-.username {
+.searchform {
+  margin-left:11rem;
+  margin-top:2rem;
+}
+.userlist{
+  margin-left:12rem;
+  
+}
+.avatar {
+  display: inline-block;
+  overflow: hidden;
+  line-height: 1;
+  vertical-align: middle;
+  border-radius: 6px;
+}
+.avatar-user {
+  border-radius: 50%!important;
+}
+.table-list-item {
+  position: relative;
+  display: table-row;
+  list-style: none;
+}
+.pl-3, .px-3 {
+  padding-left: 1rem!important;
+}
+
+.table-list-cell {
+  position: relative;
+  display: table-cell;
+  padding: 8px 10px;
+  font-size: 12px;
+  vertical-align: top;
+  border-top: 1px solid #eaecef;
+}
+.text-center {
+  text-align: center!important;
+}
+.py-3 {
+  padding-top: 16px!important;
+  padding-bottom: 16px!important;
+}
+.pr-0 {
+  padding-right: 0!important;
+}
+.v-align-middle {
+  vertical-align: middle!important;
+}
+.css-truncate .css-truncate-target {
   display: inline-block;
   max-width: 125px;
   vertical-align: top;
-  
-  }
+}

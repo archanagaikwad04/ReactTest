@@ -5,10 +5,8 @@ export const RENDER_USER_LIST = 'RENDER_USER_LIST';
 export function searchUser(title) {
   console.log(title);
   return {
-    
-    type: SEARCH_USER,
-   
-  };
+     type: SEARCH_USER,
+   };
 }
 
 export function renderUSerList() {
@@ -17,6 +15,6 @@ export function renderUSerList() {
     };
   }
 
-  export const getNews = () => ({
-    type: 'GET_NEWS',
+  export const getUser = () => ({
+    type: 'GET_USER',
 });

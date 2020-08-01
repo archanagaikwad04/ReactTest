@@ -1,15 +1,15 @@
 import { SEARCH_USER } from '../actions';
 import { RENDER_USER_LIST } from '../actions';
-import { GET_NEWS } from '../actions';
+
 const initialState = {
   userList: []
 };
 
-const reducer = (state = 'heeeee', action) => {
+const reducer = (state = {}, action) => {
   switch (action.type) {
-    case 'GET_NEWS':
+    case 'GET_USER':
          return state;
-    case 'NEWS_RECEIVED':
+    case 'USER_RECEIVED':
          return { ...state, news: action.json[0], loading: false }
     default: 
          return state;
